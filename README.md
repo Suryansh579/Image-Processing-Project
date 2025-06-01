@@ -59,7 +59,7 @@ The following graphs represent the factor analysis of different metrics using Mi
 ![Precision Graph](graphs/precision.png)
 
 ### 🔹 Recall
-![Recall Graph](graphs/recall.png)
+![Recall Graph](Image-Processing-Project/map50andrecall.jpg)
 
 ### 🔹 mAP@50-95
 ![mAP Graph](graphs/map50-95.png)
