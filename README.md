@@ -88,4 +88,17 @@ In the context of this industrial defect detection project, selecting the approp
 ### 🎯 Key Insight:
 > The **primary objective** in defect detection systems is **not to miss any defective item**, hence **Recall** is emphasized over other metrics. However, excessive false positives should be avoided to maintain operational efficiency, which is why **Precision and F1-Score** are monitored as secondary metrics.
 
+## 🔧 Best Hyperparameter Combination for High Recall
+
+Based on the experimental analysis using the L27 orthogonal array method, the following hyperparameter configuration yielded the **best Recall** performance:
+
+| **Parameter**  | **Value** |
+|----------------|-----------|
+| Patience       | 0         |
+| Batch Size     | 32        |
+| Image Size     | 640       |
+| Optimizer      | SGD       |
+| Seed           | 0         |
+
+This configuration ensures maximum defect capture while maintaining acceptable computational efficiency, making it ideal for industrial quality control scenarios where **missing a defect is costlier than a false alarm**.
 
