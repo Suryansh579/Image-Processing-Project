@@ -67,7 +67,7 @@ The following graphs represent the factor analysis of different metrics using Mi
 
 
 ### 🔹 Best Combination For Time
-![mAP50–95 Graph](https://github.com/Suryansh579/Image-Processing-Project/blob/main/map50-95.jpg?raw=true)
+![Computation Time](https://github.com/Suryansh579/Image-Processing-Project/blob/main/time.jpg?raw=true)
 
 > 📌 These graphs were used to identify the best-performing combinations of hyperparameters for training the YOLOv8 model.
 
