@@ -55,17 +55,19 @@ To fine-tune model performance, 27 experiments were conducted using **Taguchi’
 
 The following graphs represent the factor analysis of different metrics using Minitab based on L27 experiments:
 
-### 🔹 Precision
-![Precision Graph](graphs/precision.png)
+### 🔹 Best Combination For Precision
+![Precision Graph](https://github.com/Suryansh579/Image-Processing-Project/blob/main/precision.jpg?raw=true)
 
-### 🔹 Recall
+
+### 🔹 Best Combination For Recall
 ![mAP@50 and Recall Graph](https://github.com/Suryansh579/Image-Processing-Project/blob/main/map50andrecall.jpg?raw=true)
 
-### 🔹 mAP@50-95
-![mAP Graph](graphs/map50-95.png)
+### 🔹 Best Combination For mAP@50-95
+![mAP50–95 Graph](https://github.com/Suryansh579/Image-Processing-Project/blob/main/map50-95.jpg?raw=true)
 
-### 🔹 Computational Time
-![Time Graph](graphs/computational_time.png)
+
+### 🔹 Best Combination For Time
+![mAP50–95 Graph](https://github.com/Suryansh579/Image-Processing-Project/blob/main/map50-95.jpg?raw=true)
 
 > 📌 These graphs were used to identify the best-performing combinations of hyperparameters for training the YOLOv8 model.
 
