@@ -74,5 +74,18 @@ The following graphs represent the factor analysis of different metrics using Mi
 
 ---
 
-## 🗂️ Project Structure
+## 📊 Evaluation Metrics and Prioritization
+
+In the context of this industrial defect detection project, selecting the appropriate evaluation metric is crucial for aligning the model's performance with real-world quality assurance objectives. Below is the prioritized list of metrics and the rationale behind their importance:
+
+| **Metric**      | **Priority**     | **Reason** |
+|------------------|------------------|------------|
+| **Recall**       | ⭐⭐⭐⭐ (Highest)   | The top priority in defect detection. Recall ensures that the model captures as many actual defects as possible. Missing a defective product (False Negative) can lead to serious consequences, including product failure, rework costs, or customer dissatisfaction. |
+| **F1-Score**     | ⭐⭐⭐             | A balanced metric that considers both Recall and Precision. It is especially useful when a trade-off is required between catching all defects and minimizing false alarms. |
+| **Precision**    | ⭐⭐              | Helps avoid flagging good products as defective (False Positives), which is important to reduce unnecessary sorting or reinspection. |
+| **Accuracy**     | ⭐               | Less meaningful in imbalanced datasets, such as those dominated by non-defective samples. A high accuracy may still mean many defects are missed, hence it is not the primary focus. |
+
+### 🎯 Key Insight:
+> The **primary objective** in defect detection systems is **not to miss any defective item**, hence **Recall** is emphasized over other metrics. However, excessive false positives should be avoided to maintain operational efficiency, which is why **Precision and F1-Score** are monitored as secondary metrics.
+
 
