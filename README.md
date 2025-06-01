@@ -51,5 +51,26 @@ To fine-tune model performance, 27 experiments were conducted using **Taguchi’
 
 ---
 
+## 📊 Minitab Graphs – Experimental Results
+
+The following graphs represent the factor analysis of different metrics using Minitab based on L27 experiments:
+
+### 🔹 Precision
+![Precision Graph](graphs/precision.png)
+
+### 🔹 Recall
+![Recall Graph](graphs/recall.png)
+
+### 🔹 mAP@50-95
+![mAP Graph](graphs/map50-95.png)
+
+### 🔹 Computational Time
+![Time Graph](graphs/computational_time.png)
+
+> 📌 These graphs were used to identify the best-performing combinations of hyperparameters for training the YOLOv8 model.
+
+
+---
+
 ## 🗂️ Project Structure
 
